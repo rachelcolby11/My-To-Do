@@ -14,4 +14,10 @@ angular.module('mytodoApp')
       'Groceries',
       'Code some more'
     ];
+    $scope.addTodo = function () {
+      //push new item into array
+      $scope.todos.push($scope.todo);
+      //clear the text input field
+      $scope.todo = '';
+    };
   });
