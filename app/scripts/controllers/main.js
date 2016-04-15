@@ -9,7 +9,7 @@
  */
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.toDos = [
+    $scope.todos = [
       'Code',
       'Groceries',
       'Code some more'
